@@ -1,0 +1,4 @@
+- `mysql -u root -ppassword`
+- `show` databases;
+- `use` database_name;
+- show tables;
