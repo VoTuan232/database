@@ -10,7 +10,7 @@ services:
       - "6666:3306"
     volumes:
       - "./my.conf:/etc/mysql/conf.d/custom.cnf"
-      - "./data:/var/lib/mysql:rw"
+      - "./mysql-database:/var/lib/mysql:rw"
 
   # mysql-legacy:
   #   image: mysql:5.7
